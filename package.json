@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -10,9 +13,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.x",
     "heroku": "^7.42.4",
-    "node": "^12.13.1"
+    "node": "^12.x"
   },
   "directories": {
     "lib": "lib"
