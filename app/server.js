@@ -2,13 +2,11 @@ const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 3001
 const app = express()
-const {
-    notes
-} = require('./db/db.json')
+const { notes } = require('../db/db.json')
 const {
     addNote,
     idVerify,
-} = require('./lib/notesindex')
+} = require('../lib/notesindex')
 
 app.use(express.urlencoded({
     extended: true
