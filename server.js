@@ -6,7 +6,7 @@ const { notes } = require('./db/db.json')
 const {
     addNote,
     idVerify,
-} = require('./lib/notesindex')
+} = require('./lib/notesIndex')
 
 app.use(express.urlencoded({
     extended: true
