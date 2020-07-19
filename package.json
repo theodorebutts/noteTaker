@@ -15,7 +15,8 @@
   "dependencies": {
     "express": "^4.x",
     "heroku": "^7.42.4",
-    "node": "^12.x"
+    "node": "^12.x",
+    "path": "^0.12.7"
   },
   "directories": {
     "lib": "lib"
